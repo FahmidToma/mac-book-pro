@@ -88,7 +88,7 @@ function totalPromoCalculation(){
     const deliveryPrice = parseInt(document.getElementById('delivery-cost').innerText);
     const calculatedTotal= memoryPrice + storagePrice + deliveryPrice;
     const totalPriceAmount = 1299 + calculatedTotal;
-    const promoAmount = totalPriceAmount * .2;
+    const promoAmount = totalPriceAmount - (totalPriceAmount * .2);
     document.getElementById('bonus-total').innerText = promoAmount;
 }
 
