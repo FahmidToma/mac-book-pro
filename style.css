@@ -1,0 +1,10 @@
+.mac-img{
+    width: 400px;
+    height: 450px;
+}
+button:hover{
+    color: rgb(17, 31, 224);
+}
+#apply{
+    color: white
+}
